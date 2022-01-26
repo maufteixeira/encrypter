@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Decodificador de Texto</title>
+</head>
+<body>
+    <div class="titulo">Meu codificador de texto</div>
+
+    <div class="input">
+        <input type="text"  id="input"  autofocus name="input"  onchange="verificar()" placeholder="Digite aqui">
+    </div>
+    <div class="botoes1">
+        <button id="do" type="button" onclick="addEncrypt()">Criptografar</button>
+        <button id="undo" type="button" onclick="deEncrypt()">Descriptografar</button>
+    </div>
+    <div class= "botoes2">
+        <button class="copy" type="button" onclick="copyTo()">Copiar</button>
+        <button class="clean" type="button" onclick="limpaCampo()">Limpar</button>
+    </div>
+    <div class="result">
+        <input type="text" id="result" readonly="true">
+    </div>
+    
+    
+
+    <script src="./js/script.js"></script>
+    <script src="./js/valida_palavra.js"></script>
+    <script src="./js/criptografar.js"></script>
+    <script src="./js/descriptografar.js"></script>
+
+</body>
+<footer>
+    Desenvolvido por Mauricio Teixeira© - 2022
+</footer>
+</html>

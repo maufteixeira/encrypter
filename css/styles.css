@@ -1,0 +1,130 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color: cadetblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    color: green;
+    padding-top: 20px;
+
+}
+
+.input {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#input {
+    width: 500px;   
+    height: 35px;
+    border-radius: 18px;
+    border: 3px solid green;
+    padding-left: 15px;
+    align-self: center;
+    font-size: larger;
+    text-align: start;
+    outline: 0;
+}
+
+.botoes1 {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#do {
+    background-color: greenyellow;
+    color: green;
+    font-size: 20px;
+    border-radius: 25px;
+    width: 200px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+#undo {
+    background-color: red;
+    color: lavender;
+    font-size: 20px;
+    border-radius: 25px;
+    width: 200px;
+    height: 35px;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    padding-bottom: 15px;
+}
+
+#result {
+    height: 80%;
+    width: 100%;
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    border: transparent;
+    outline: 0;
+}
+
+.botoes2 {
+    padding-top: 15px;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.copy{
+    background-color: #333;
+    color: lavender;
+    font-size: 20px;
+    border-radius: 25px;
+    width: 150px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+.clean{
+    background-color: #CCC;
+    color: olive;
+    font-size: 20px;
+    border-radius: 25px;
+    width: 150px;
+    height: 35px;
+}
+
+footer {
+    background-color: #333;
+    color:lavender;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
